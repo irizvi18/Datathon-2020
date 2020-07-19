@@ -5,10 +5,36 @@ import numpy as np
 import geopandas as gpd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('obesity/childhood-obesity-borough-filtered.csv', header=0, index_col=1)
+# df = pd.read_csv('obesity/childhood-obesity-borough-filtered.csv', header=0, index_col=1)
+df = pd.read_csv('obesity/childhood-obesity-borough-filtered.csv', header=0)
+df = df.groupby('Year')['Reception Overweight', 'Year 6 Overweight', 'Reception Obese', 'Year 6 Obese'].mean()
+# r_over = df['Reception Overweight'].to_numpy()
+# y6_over = df['Year 6 Overweight'].to_numpy()
+# r_obese = df['Reception Obese'].to_numpy()
+# y6_obese = df['Year 6 Obese'].to_numpy()
+years = df.index.to_numpy()
+# plt.figure(2)
+# plt.plot(years, r_over)
+# plt.plot(years, y6_over)
+# plt.plot(years, r_obese)
+# plt.plot(years, y6_obese)
+# plt.xlabel('Year')
+# plt.ylabel('Percentage of population')
+# plt.ylim((0, 40))
+# plt.title('London Proportion of Children Overweight or Obese Over Time')
+# plt.legend(['% Age 4 Overweight', '% Age 12 Overweight', '% Age 4 Obese', '% Age 12 Obese'])
 
-df['Unhealthy Weight Index'] = df['Reception Overweight'] + 2 * df['Reception Obese'] \
-    + 1.5 * df['Year 6 Overweight'] + 3 * df['Year 6 Obese']
+df['Unhealthy Weight Index'] = (df['Reception Overweight'] + 2 * df['Reception Obese'] \
+    + 1.5 * df['Year 6 Overweight'] + 3 * df['Year 6 Obese']) / 500
+w_index = df['Unhealthy Weight Index'].to_numpy()
+plt.figure(3)
+plt.plot(years, w_index)
+plt.xlabel('Year')
+plt.ylabel('Unhealthy Weight Index (UWI)')
+plt.ylim((0, 0.5))
+plt.title('London UWI Over Time')
+plt.show()
+exit()
 
 valid_bors = dict.fromkeys(df['Local Authority'])
 p_vals = {}
