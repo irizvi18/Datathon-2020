@@ -1,0 +1,142 @@
+﻿industry_name,code
+All Industries,0
+Goods-Producing Sector,"11,21,22,23,31,32,33"
+Agriculture,"1100 - 1129, 1151 - 1152"
+   Crop Production,1111 - 1119
+   Animal Production,1121 - 1129
+   Mix farming,1100
+   Support Activities for Agriculture,1151 - 1152
+"Forestry, fishing, mining, quarrying, oil and gas","1131 - 1142, 1153, 2100 - 2131"
+   Forestry and Logging with support activities,"1131 - 1133, 1153"
+"   Fishing, Hunting and Trapping",1141 - 1142
+   Mining and Oil and Gas Extraction,2100 - 2131
+      Oil and Gas Extraction,2111
+      Mining (except Oil and Gas) & Mix Mining,"2121 - 2123, 2100"
+      Support Activities for Mining and Oil and Gas Extraction,2131
+Utilities,2211 - 2213
+Construction,2361 - 2389
+  Construction of Buildings,2361-2362
+     Residential Building Construction,2361
+     Non-residential Building Construction,2362
+  Heavy and Civil Engineering Construction,2371-2379
+     Utility System Construction,2371
+     Land Subdivision,2372
+"     Highway, Street and Bridge Construction",2373
+     Other Heavy and Civil Engineering Construction,2379
+   Trade Contracting,2381 - 2389
+     Foundation Structure and Building Exterior Contractors,2381
+     Building Equipment Contractors,2382
+     Building Finishing Contractors,2383
+     Other Specialty Trade Contractors,2389
+Manufacturing,3111 - 3399
+   Food Manufacturing,3111 - 3119
+   Beverage and Tobacco Product Manufacturing,3121 - 3122
+   Textile Mills & Textile Product Mills,"3131 - 3133, 3141 - 3149"
+   Clothing Manufacturing & Leather & Allied Product Manufacturing,"3151 - 3159, 3161 - 3169"
+   Wood Product Manufacturing,3211 - 3219
+   Paper Manufacturing,3221 - 3222
+   Printing and Related Support Activities,3231
+   Petroleum and Coal Products Manufacturing,3241
+   Chemical Manufacturing,3251 - 3259
+   Plastics and Rubber Products Manufacturing,3261 - 3262
+   Non-Metallic Mineral Product Manufacturing,3271 - 3279
+   Primary Metal Manufacturing,3311 - 3315
+   Fabricated Metal Product Manufacturing,3321 - 3329
+   Machinery Manufacturing,3331 - 3339
+   Computer and Electronic Product Manufacturing,3341 - 3346
+"   Electrical Equipment, Appliance and Component Manufacturing",3351 - 3359
+   Transportation Equipment Manufacturing,3361 - 3369
+"      Motor Vehicle, Body, Trailer & Parts Manufacturing",3361 - 3363
+      Other Transportation Equipment Manufacturing,3364 - 3369
+   Furniture and Related Product Manufacturing,3371 - 3379
+   Miscellaneous Manufacturing,3391 - 3399
+  Durables,"3211 - 3219, 3271 - 3279, 3311 - 3399"
+  Non-durables,"3111 - 3169, 3221 - 3262"
+Services-Producing Sector,41 & over
+Trade,4111 - 4543
+   Wholesale,4111 - 4191
+      Farm Product Wholesaler-Distributors,4111
+      Petroleum Product Wholesaler-Distributors,4121
+"      Food, Beverage and Tobacco Wholesaler-Distributors",4131 - 4133
+      Personal and Household Goods Wholesaler-Distributors,4141 - 4145
+      Motor Vehicle and Parts Wholesaler-Distributors,4151 - 4153
+      Building Material and Supplies Wholesaler-Distributors,4161 - 4163
+"      Machinery, Equipment and Supplies Wholesaler-Distributors",4171 - 4179
+      Miscellaneous Wholesaler-Distributors & Wholesale Agents & Brokers,"4181 - 4189, 4191"
+   Retail,4411 - 4543
+      Motor Vehicle and Parts Dealers,4411 - 4413
+      Furniture and Home Furnishings Stores,4421 - 4422
+      Electronics and Appliance Stores,4431
+      Building Material and Garden Equipment and Supplies Dealers,4441 - 4442
+      Food and Beverage Stores,4451 - 4453
+      Health and Personal Care Stores,4461
+      Gasoline Stations,4471
+      Clothing and Clothing Accessories Stores,4481 - 4483
+"      Sporting Goods, Hobby, Book and Music Stores",4511 - 4513
+      General Merchandise Stores,4521 - 4529
+      Miscellaneous Store Retailers,4531 - 4539
+      Non-Store Retailers,4541 - 4543
+Transportation and Warehousing,4811 - 4931
+   Transportation,4811 - 4922
+      Air Transportation,4811 - 4812
+      Rail Transportation,4821
+      Water Transportation,4831 - 4832
+      Truck Transportation,4841 - 4842
+      Transit and Ground Passenger Transportation,4851 - 4859
+      Pipeline Transportation,4861 - 4869
+      Scenic and Sightseeing Transportation & Support Activities for Transportation,"4871 - 4879 , 4881 - 4889"
+      Postal Service,4911
+      Couriers and Messengers,4921 - 4922
+   Warehousing and Storage,4931
+"Finance, Insurance, Real Estate and Leasing",5211 - 5331
+   Monetary Authorities - Central Bank & Credit Intermediation and Related Activities,"5211, 5221 - 5223"
+"   Securities, Commodity Contracts, and Other Intermediation and Related Activities",5231 - 5239
+    Insurance Carriers & Related Activities and Funds & Other Financial Vehicles,"5241 - 5242, 5261 - 5269"
+   Real Estate,5311 - 5313
+   Rental & Leasing Services and Owners & Lessors of Other Non-Financial Assets,"5321 - 5324, 5331"
+"Professional, Scientific and Technical Services",5411 - 5419
+   Legal Services,5411
+   Accounting and Tax Preparation,5412
+"   Architectural, Engineering and Design Services",5413 - 5414
+   Computer System Design Services,5415
+"   Management, Scientific and Technical Services",5416 - 5417
+   Advertising and Related Services,5418
+   Other Professional Services,5419
+"Business, Building and Other Support Services",5511 - 5629
+   Employment Services,5613
+   Business Services,5614
+   Travelling Services,5615
+   Security Services,5616
+   Building Services,5617
+   Management of Enterprises and Other Administrative Services,"5511, 5611 - 5612, 5619"
+   Waste Management and Remediation Services,5621 - 5629
+Educational Services,6111 - 6117
+   Primary and Secondary,6111
+   Post-Secondary,6112
+   University,6113
+   Other Schools and Educational Support,6114 - 6117
+Health Care and Social Assistance,6211 - 6244
+   Ambulatory Health Care Services,6211 - 6219
+   Hospitals,6220
+   Nursing and Residential Care Facilities,6230
+   Social Assistance,6241 - 6244
+"Information, culture and recreation","5111 - 5191, 7111 - 7139"
+   Publishing Industries,"5111 - 5112, 5161"
+   Motion Picture and Sound Recording Industries,5121 - 5122
+   Broadcasting and Telecommunications,"5151 - 5152, 5171 - 5179"
+   Information Services and Data Processing Services,5181 - 5191
+"   Performing Arts, Spectator Sports and Related Industries",7111 - 7115
+   Heritage Institutions,7121
+"   Amusement, Gambling and Recreation Industries",7131 - 7139
+Accommodation and food services,7211 - 7225
+   Accommodation Services,7211 - 7213
+   Food Services and Drinking Places,7221 - 7224
+Other services,8111 - 8141
+   Repair and Maintenance,8111 - 8114
+   Personal and Laundry Services,8121 - 8129
+"   Religious, Grant-Making, Civic, and Professional and Similar Organizations",8131 - 8139
+   Private Households,8141
+Public administration,9110 - 9191
+   Federal Government Public Administration (including Defence Services),"9110, 9111"
+   Provincial and Territorial Public Administration,9120
+"   Local, Municipal & Regional Public Administration and Aboriginal, Inter & Other Extra-Territorial Public Admin","9130, 9141, 9191"

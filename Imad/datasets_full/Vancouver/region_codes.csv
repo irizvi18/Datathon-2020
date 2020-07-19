@@ -1,0 +1,75 @@
+region_code,region_name,Composition,Description
+DR01,Vancouver Island/Coast,"RD 17, 19, 21, 23, 25, 43, 45",
+DR02,Mainland/Southwest,"RD 09, 15, 29, 31",
+DR03,Thompson/Okanagan,"RD 07, 33, 35, 37, 39",
+DR04,Kootenay,"RD 01, 03, 05",
+DR05,Cariboo,"RD 41, 53",
+DR06,North Coast,"RD 47, 49",
+DR07,Nechako,RD 51+57,
+DR08,Northeast,RD 55+59,
+RD01,East Kootenay,"UC 08, 29, 31, 38",
+RD03,Central Kootenay,UC 22,
+RD05,Kootenay Boundary,,
+RD07,Okanagan-Similkameen,"UC 18, 33, 34",
+RD09,Fraser Valley,"UC 35, 36",
+RD15,Greater Vancouver,"UC 01, 02, 24, 26",
+RD17,Capital,"UC 04, 28",
+RD19,Cowichan Valley,,
+RD21,Nanaimo,UC 16,
+RD23,Alberni-Clayoquot,"UC 13, 40, 41",
+RD25,Comox+Strathcona,"UC 25, 39",
+RD27,Powell River,,
+RD29,Sunshine Coast,,
+RD31,Squamish-Lillooet,UC 20,
+RD33,Thompson-Nicola,"UC 06, 37",
+RD35,Central Okanagan,UC 07,
+RD37,North Okanagan,UC 17,
+RD39,Columbia-Shuswap,UC 27. 30,
+RD41,Cariboo,"UC 14, 21",
+RD43,Mount Waddington,,
+RD45,Central Coast,,
+RD47,Skeena-Queen Charlotte,UC 10,
+RD49,Kitimat-Stikine,UC 15,
+RD51+57,Bulkley-Nechako+Stikine,UC 11,
+RD53,Fraser-Ft George,"UC 09, 38",
+RD55+59,Peace River+Northern Rockies,"UC 12, 19",
+UC01,Downtown Vancouver,,"Properties reporting with postal code FSAs V6B, V6C, V6E, V6G, V6Z, V7X, V7Y"
+UC02,Other Vancouver,,"City of Vancouver, excluding UC 01"
+UC03,Rest of Greater Vancouver RD,,"Greater Vancouver RD, excluding UC 01, 02, 24, 26"
+UC04,Victoria,,City of Victoria
+UC05,Rest of Capital RD,,"Capital RD, excluding UC 04, 28"
+UC06,Kamloops,,City of Kamloops
+UC07,Kelowna,,City of Kelowna
+UC08,Cranbrook,,City of Cranbrook
+UC09,Prince George,,City of Prince George
+UC10,Prince Rupert,,City of Prince Rupert
+UC11,Smithers,,Town of Smithers
+UC12,Fort St John,,City of Fort St John
+UC13,Port Alberni,,City of Port Alberni
+UC14,Williams Lake,,City of Williams Lake
+UC15,Terrace,,City of Terrace
+UC16,Nanaimo,,City of Nanaimo
+UC17,Vernon,,City of Vernon
+UC18,Penticton,,City of Penticton
+UC19,Dawson Creek,,City of Dawson Creek
+UC20,Whistler,,District Municipality of Whistler
+UC21,Quesnel,,City of Quesnel
+UC22,Nelson,,City of Nelson
+UC24,Richmond,,City of Richmond
+UC25,Comox Valley,,"Town of Comox, City of Courtenay, Village of Cumberland, Comox A & B regional district areas, Comox 1 & Pentledge 2 Indian reservations"
+UC26,Burnaby,,City of Burnaby
+UC27,Revelstoke,,City of Revelstoke
+UC28,Saanich Peninsula,,"District Municipalities of North Saanich & Central Saanich, Town of Sidney"
+UC29,Fernie,,"City of Fernie, including properties reporting with postal codes of the form V0B1M?"
+UC30,Golden,,Town of Golden
+UC31,Kimberley,,City of Kimberley
+UC32,Columbia Valley,,"District Municipality of Invermere, Villages of Radium Hot Springs & Canal Flats, East Kootenay F & G regional district areas"
+UC33,Osoyoos,,Town of Osoyoos
+UC34,Oliver/Okanagan Falls,,"Town of Oliver, Okanagan-Similkameen C &D regional district areas"
+UC35,Abbotsford/Mission,,"City of Abbotsford, District Municipality of Mission"
+UC36,Hope,,District Municipality of Hope
+UC37,Cache Creek,,Village of Cache Creek
+UC38,Valemount/Robson Valley,,"Village of Valemount, properties reporting with postal code FSAs V0E in Fraser-Ft George H regional district area"
+UC39,Campbell River,,City of Campbell River
+UC40,Tofino,,District Municipality of Tofino
+UC41,Ucluelet,,District Municipality of Ucluelet
